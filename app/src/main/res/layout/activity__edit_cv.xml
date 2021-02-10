@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_backgrond"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/ViewCv_frame_Container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/ViewCv_Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ViewCv_frame_Container"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:layout_marginTop="42dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/ViewCv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ViewCv_frame_Container"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/ViewCv_Next"
+        android:text="Delete" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ViewCv_Next"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="31dp"
+        android:text="CV Number: "
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_CVNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ViewCv_delete"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="30dp"
+        android:text="1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_SavePdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ViewCv_Next"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="0dp"
+        android:text="SavePdf" />
+
+
+</RelativeLayout>

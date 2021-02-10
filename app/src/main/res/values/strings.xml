@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OnlineCV_Builder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="basic_info">Enter Basic Info</string>
+    <string name="education_info">Enter Education Info</string>
+    <string name="experience_info">Enter Experience Info</string>
+    <string name="resume">Your Resume</string>
+    <string name="education">Education</string>
+    <string name="experience">Experience</string>
+
+</resources>
